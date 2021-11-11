@@ -7,6 +7,7 @@
 - [React](#react)
 - [Sintaxis JSX](#sintaxis-jsx)
 - [Componentes](#componentes)
+- [Propiedades/props](#propiedadesprops)
 
 ---
 
@@ -42,7 +43,7 @@
 
 - JSX le permite integrar HTML y JavaScript en un mismo archivo e incluso en una misma línea de código.
 
-- Usando **JSX** puede basarse en la sintaxis de JavaScript para inyectar la lógica de su aplicación dentro de elementos HTML.
+- Usando **JSX** puede basarse en la sintaxis de JavaScript para inyectar la lógica de su aplicación dentro de "elementos HTML".
 
 </details>
 
@@ -79,3 +80,21 @@
 
 <br/>
 
+## Propiedades/props
+
+<details style="border: 1px outset #444; padding:5px;cursor:pointer">
+<summary>Visualizar la información</summary>
+<br/>
+
+- > Las props, son valores **inmutables**, es decir, son de solo **lectura** ( no se puede modificar el valor de las props ).
+
+- Las props, almacenan todos los datos que le pases al componente, es decir, una sola variable almacena toda esa información, una opción para obtener esos datos sería utilizar la desestructuración.
+
+- Gracias a las **props** existe la posibilidad de que el comportamiento y la interfaz de nuestros componentes cambien.
+
+</details>
+<br/>
+
+---
+
+<br/>
