@@ -2,10 +2,11 @@
 
 ## Índice
 
+
 - [Índice](#índice)
-  - [React](#react)
+- [React](#react)
 
 ---
 
-### React
+## React
 
