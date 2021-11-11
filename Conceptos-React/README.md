@@ -6,6 +6,7 @@
 - [Índice](#índice)
 - [React](#react)
 - [Sintaxis JSX](#sintaxis-jsx)
+- [Componentes](#componentes)
 
 ---
 
@@ -15,6 +16,7 @@
 
 <details style="border: 1px outset #444; padding:5px;cursor:pointer" >
 <summary>Visualizar la información</summary>
+<br/>
 
 - [React](https://es.reactjs.org/), es una biblioteca de JavaScript para construir interfaces de usuario.
 
@@ -27,12 +29,14 @@
 - Fue creada por Facebook, es de código abierto, es mantenida por la comunidad de software libre y por Facebook.
 </details>
 
+---
 <br/>
 
 ## Sintaxis JSX
 
 <details style="border: 1px outset #444; padding:5px;cursor:pointer">
 <summary>Visualizar la información</summary>
+<br/>
 
 - React usa una sintaxis especial conocida como XML de JavaScript ( **JSX** ).
 
@@ -41,12 +45,37 @@
 - Usando **JSX** puede basarse en la sintaxis de JavaScript para inyectar la lógica de su aplicación dentro de elementos HTML.
 
 </details>
+
 <br/>
 
 > JSX se basa en un lenguaje de marcado extensible ( XML ), debido a esto incluye un par de restricciones importantes:  
 > - Todos los elementos deben colocarse dentro de un elemento principal.
 > - Todos los elementos deben tener una etiqueta de cierre.
 
+> Use los **handlebars**  `{ }` para poder escribir código JavaScript, y de esa manera poder generar datos dinámicos.
+
 ---
+<br/>
+
+## Componentes
+
+<details style="border: 1px outset #444; padding:5px;cursor:pointer" >
+  <summary>Visualizar la información</summary>
+  <br/>
+
+- El desarrollo de React se basa en componentes
+
+- Los componentes se usan para dividir lógicamente la aplicación ( **modularidad** ).
+
+- Los componentes son unidades independientes que estan diseñados para **reutilización de código** y para la **modularidad**
+
+- Se puede crear componentes utilizando funciones o clases.
+
+
+</details>
+<br/>
+
+---
+
 <br/>
 
