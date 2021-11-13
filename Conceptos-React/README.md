@@ -115,6 +115,8 @@
 
 - Cualquier **tipo de datos** u **objetos** de JavaScript se pueden registrar como estado en React.
 
+- >**React** administra el **estado** de varias maneras. Una de las principales formas es mediante los **Hooks**
+
 </details>
 <br/>
 
