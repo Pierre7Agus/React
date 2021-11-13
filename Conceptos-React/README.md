@@ -9,6 +9,7 @@
 - [Componentes](#componentes)
 - [Propiedades/props](#propiedadesprops)
 - [Estado](#estado)
+- [Inmutabilidad](#inmutabilidad)
 
 ---
 
@@ -113,6 +114,24 @@
 - **El estado** *son* los datos que se pueden cambiar y compartir entre los componentes de la aplicación.
 
 - Cualquier **tipo de datos** u **objetos** de JavaScript se pueden registrar como estado en React.
+
+</details>
+<br/>
+
+---
+<br/>
+
+## Inmutabilidad
+
+<details style="border: 1px outset #444; padding:5px;cursor:pointer">
+<summary>Visualizar la información</summary>
+<br/>
+
+- Uno de los principios básicos de React es el concepto de inmutabilidad.
+  
+- La **inmutabilidad** significa que los valores no se actualizan, sino que se establecen en nuevas copias de los datos.
+
+- Al mantener el estado inmutable, **React** puede determinar mejor lo que ha cambiado, ya que los valores originales siguen existiendo. Este uso continuo de nuevas copias permite almacenar el historial o aplicar otras funciones avanzadas.
 
 </details>
 <br/>
