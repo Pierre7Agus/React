@@ -8,6 +8,7 @@
 - [Sintaxis JSX](#sintaxis-jsx)
 - [Componentes](#componentes)
 - [Propiedades/props](#propiedadesprops)
+- [Estado](#estado)
 
 ---
 
@@ -97,4 +98,24 @@
 
 ---
 
+<br/>
+
+## Estado
+
+<details style="border: 1px outset #444; padding:5px;cursor:pointer">
+<summary>Visualizar la información</summary>
+<br/>
+
+- **El estado** almacena los datos que esperamos cambiar durante el ciclo de vida de la aplicación.
+
+- Básicamente, si el valor puede cambiar, debe formar parte del estado de la aplicación.
+
+- **El estado** *son* los datos que se pueden cambiar y compartir entre los componentes de la aplicación.
+
+- Cualquier **tipo de datos** u **objetos** de JavaScript se pueden registrar como estado en React.
+
+</details>
+<br/>
+
+---
 <br/>
