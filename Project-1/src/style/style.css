@@ -2,3 +2,17 @@
     text-decoration: line-through;
     color:green;
 }
+.ocultar{
+    display:none;
+}
+.mostrar{
+    display: block;
+}
+.sub-container{
+    margin: auto;
+    width:80%;
+    line-height: 25px;
+}
+.sub-container > *{
+    flex:1 1 100%;
+}

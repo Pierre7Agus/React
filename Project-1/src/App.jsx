@@ -3,6 +3,7 @@ import './style/style.css'
 import recipe from './services/Data'
 import Header from './components/Header'
 import ListOfIngredients from './components/ListOfIngredients';
+import Preparation from './components/Preparation'
 
 
 export default function App(){
@@ -23,10 +24,10 @@ export default function App(){
     },[initial]);
 
     return(
-        <div>
+        <div className='sub-container'>
         <Header titulo={recipe.title} descripcion={recipe.description}/>
         <ListOfIngredients ingredients={recipe.ingredients} onClick={ingredientClick} prepared={prepared}/>
-        
+        <Preparation preparation={recipe.preparation} prepared={prepared} />
         </div>
     )
 }
