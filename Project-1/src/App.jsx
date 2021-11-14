@@ -1,8 +1,9 @@
 import React from 'react';
-
+import recipe from './services/Data'
+import Header from './components/Header'
 
 export default function App(){
     return(
-        <h1>hello</h1>
+        <Header titulo={recipe.title} descripcion={recipe.description}/>
     )
 }
