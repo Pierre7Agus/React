@@ -28,7 +28,7 @@ export default function App(){
     <section>
       {
         gif.map(({title,id,url})=>{
-          <article key={id}>
+          return <article key={id}>
             <h2>{title}</h2>
             <figure>
               <img src={url} alt={title}  />
