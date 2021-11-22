@@ -1,0 +1,20 @@
+{
+  "name": "Project-2-Gifis",
+  "version": "1.0.0",
+  "description": "In this project the Giphy API is used to import Gifs and display them on the web. In addition, this project serves to reinforce knowledge about React concepts and to become familiar with the syntax. ",
+  "main": "index.js",
+  "scripts": {
+    "start":"snowpack dev",
+    "build":"snowpack build"
+  },
+  "keywords": [],
+  "author": "Pierre Agus",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "3.8.8"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
