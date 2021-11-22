@@ -1,6 +1,8 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 export default function App(){
+
+  const [gif , setGif]=useState([])
 
   const apiKEY = '3gsGIyDZ1ugFQ8tzmLXKONspga919v28'
   const apiUrl = `https://api.giphy.com/v1/gifs/search?api_key=${apiKEY}&q='panda'&limit=10&offset=0&rating=g&lang=en`;
@@ -18,12 +20,13 @@ export default function App(){
       return gifs
     })
   }
-  getGifis()
+
+  getGifis().then(res=>setGif(res))
 
 
   return(
     <section>
-      <h1>Hello World</h1>
+      
     </section>
   )
 }
