@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import getGifis from './services/getGifis'
+import Gifs from './components/Gifs'
 
 export default function App(){
 
@@ -10,17 +11,8 @@ export default function App(){
   },[])
 
   return(
-    <section>
-      {
-        gif.map(({title,id,url})=>{
-          return <article key={id}>
-            <h2>{title}</h2>
-            <figure>
-              <img src={url} alt={title}  />
-            </figure>
-          </article>
-        })
-      }
-    </section>
+    <div>
+      {gif.map(({id,title,url}) => <Gifs title={title} url={url}  id={id} key={id}/> )}
+    </div>
   )
 }
