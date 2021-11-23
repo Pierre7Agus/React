@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 
 export default function App(){
 
@@ -21,8 +21,9 @@ export default function App(){
     })
   }
 
-  getGifis().then(res=>setGif(res))
-
+  useEffect(()=>{
+    getGifis().then(res=>setGif(res))
+  },[])
 
   return(
     <section>
