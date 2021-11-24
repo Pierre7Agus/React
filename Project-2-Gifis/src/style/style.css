@@ -1,0 +1,64 @@
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin: 0;
+}
+body{
+  color:white;
+  text-align: center;
+  background:#222;
+  background-image:url('https://images.pexels.com/photos/3137078/pexels-photo-3137078.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.container{
+
+  width:90%;
+  margin:auto;
+}
+img{
+  width:50%;
+  height:350px;
+  border-radius: 20px;
+}
+@media screen and (max-width:650px){
+  img{
+    width:70%;
+  }
+}
+@media screen and (max-width:350px){
+  img{
+    width:100%;
+  }
+}
+article{
+  margin:50px 0px;
+}
+h1{
+  font-size:3em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h2{
+  margin-bottom: 10px;
+}
+input{
+  width: 150px;
+  padding:5px;
+  margin-right:40px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+  outline: 1px solid white;
+}
+
+button{
+  background-color: white;
+  border-radius: 10px;
+  font-size:1.2em;
+  padding:5px 10px;
+}
+button:hover{
+  cursor:pointer;
+}

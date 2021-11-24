@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import './style/style.css'
 import ListOfGifs from './components/ListOfGifs'
 import ShowGifs from './components/ShowGifs'
 
@@ -17,7 +18,7 @@ export default function App(){
   }
 
   return(
-    <div>
+    <div className='container'>
       <ShowGifs onClick={actionUser} />
       <ListOfGifs keyword={keyword}/>
     </div>
