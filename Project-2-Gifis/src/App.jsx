@@ -8,11 +8,12 @@ export default function App(){
 
   const actionUser=()=>{
     const form=document.getElementById('form')
+    let inputValue=document.getElementById('inputValue').value
     form.onsubmit=(e)=>{
-      const inputValue=document.getElementById('inputValue').value
-      setKeyword(inputValue)
+      (inputValue) ? setKeyword(inputValue) : setKeyword('error')
       e.preventDefault()
     }
+    form.reset()
   }
 
   return(
