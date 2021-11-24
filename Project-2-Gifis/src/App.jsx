@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import ListOfGifs from './components/ListOfGifs'
+import ShowGifs from './components/ShowGifs'
 
 export default function App(){
 
@@ -16,13 +17,7 @@ export default function App(){
 
   return(
     <div>
-      <h1>Gifs Finder</h1>
-      <form id="form">
-        <label>
-          <input type="text" id="inputValue"/>
-          </label>
-          <button onClick={actionUser} >Search</button>
-      </form>
+      <ShowGifs onClick={actionUser} />
       <ListOfGifs keyword={keyword}/>
     </div>
   )
