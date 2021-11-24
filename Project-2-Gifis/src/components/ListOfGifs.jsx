@@ -2,13 +2,13 @@ import React,{useState,useEffect} from 'react'
 import getGifis from '../services/getGifis'
 import Gifs from './Gifs'
 
-export default function ListOfGifs(){
+export default function ListOfGifs({keyword}){
 
   const [gif , setGif]=useState([])
 
   useEffect(()=>{
-    getGifis().then(res=>setGif(res))
-  },[])
+    getGifis({keyword}).then(res=>setGif(res))
+  },[keyword])
 
   return(
     <div>
