@@ -62,3 +62,47 @@ button{
 button:hover{
   cursor:pointer;
 }
+
+/*loading*/
+
+.load-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*background: orange;*/
+	min-height: 80vh;
+}
+.loader{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	background: dodgerblue;
+	border-radius: 50%;
+	animation:rotate .4s linear infinite ;
+}
+
+@keyframes rotate{
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+.loader::before{
+	content: '';
+	position: absolute;
+	background: black;
+	inset: 15px 15px 0 0;
+	border-radius: 50%;
+
+}
+.loader::after{
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	bottom: -10px;
+	left: 65px;
+	background:dodgerblue;
+	box-shadow: 0 0 5px dodgerblue, 0 0 25px dodgerblue, 0 0 50px dodgerblue, 0 0 75px dodgerblue ;
+	border-radius: 50%;
+}

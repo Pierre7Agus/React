@@ -5,10 +5,22 @@ import Gifs from './Gifs'
 export default function ListOfGifs({keyword}){
 
   const [gif , setGif]=useState([])
+  const [loading,setLoading]=useState(false)
 
   useEffect(()=>{
-    getGifis({keyword}).then(res=>setGif(res))
+    setLoading(true)
+    getGifis({keyword}).then(res=>{
+      setGif(res)
+      setLoading(false)
+    })
   },[keyword])
+
+  if(loading) return(
+    <section className='load-container'>
+		  <div className="loader"></div>
+	  </section>
+  )
+
 
   return(
     <div>
