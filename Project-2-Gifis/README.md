@@ -7,12 +7,18 @@
 
 Finder Gifs is a Simple Page Application (SPA) that allows you to view and search for gifs
 
+## Overview
+
+<div align="center">
+<img src="../images/gif2.gif" width=450 alt="React-logo"/>
+</div>
+
 ## Built with 🛠️
 
 - JavaScript
 - CSS3
 - React
 
-## Author
+## Author ✒️
 
 - [PierreAgus](https://https://github.com/Pierre7Agus)
