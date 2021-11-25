@@ -137,6 +137,8 @@
 
 - La **inmutabilidad** significa que los valores no se actualizan, sino que se establecen en nuevas copias de los datos.
 
+- El **estado** en React es inmutable, eso significa que cuando se invoca la función actualizadora del estado, la variable que almacena el estado no se modifica, en lugar de eso, se crea una copia nueva.
+
 - Al mantener el estado inmutable, **React** puede determinar mejor lo que ha cambiado, ya que los valores originales siguen existiendo. Este uso continuo de nuevas copias permite almacenar el historial o aplicar otras funciones avanzadas.
 
 </details>
