@@ -1,5 +1,9 @@
 <h1 align="center" >Conceptos de React</h1>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" width=150 alt="React-logo"/>
+</div>
+
 ## Índice
 
 
@@ -26,7 +30,7 @@
 - Es **declarativo**
 
 - Se basa en **componentes**
-  
+
 - Tiene el objetivo de facilitar el desarrollo de aplicaciones de una sola página ( Simple Page Aplication )
 
 - Fue creada por Facebook, es de código abierto, es mantenida por la comunidad de software libre y por Facebook.
@@ -130,7 +134,7 @@
 <br/>
 
 - Uno de los principios básicos de React es el concepto de inmutabilidad.
-  
+
 - La **inmutabilidad** significa que los valores no se actualizan, sino que se establecen en nuevas copias de los datos.
 
 - Al mantener el estado inmutable, **React** puede determinar mejor lo que ha cambiado, ya que los valores originales siguen existiendo. Este uso continuo de nuevas copias permite almacenar el historial o aplicar otras funciones avanzadas.
