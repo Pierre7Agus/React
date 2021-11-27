@@ -78,6 +78,7 @@
 
 - Se puede crear componentes utilizando funciones o clases.
 
+- Todos los componentes de **React** deben actuar como **funciones puras** respecto a sus **props**, lo cual significa que , las **props** no se deben modificar dentro de las funciones (componentes), solo se deben usar para leer su valor o contenido
 
 </details>
 <br/>
