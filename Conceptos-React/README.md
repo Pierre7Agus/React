@@ -94,7 +94,7 @@
 
 - > Las props, son valores **inmutables**, es decir, son de solo **lectura** ( no se puede modificar el valor de las props ).
 
-- Las props, almacenan todos los datos que le pases al componente, es decir, una sola variable almacena toda esa información, una opción para obtener esos datos sería utilizar la desestructuración.
+- Las props, almacenan todos los atributos que le pases al componente en un **objeto**, es decir, una sola variable almacena todos los atributos, una opción para obtener esos datos sería utilizar la desestructuración.
 
 - Gracias a las **props** existe la posibilidad de que el comportamiento y la interfaz de nuestros componentes cambien.
 
