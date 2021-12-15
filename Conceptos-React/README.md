@@ -14,10 +14,9 @@
 - [Propiedades/props](#propiedadesprops)
 - [Estado](#estado)
 - [Inmutabilidad](#inmutabilidad)
+- [Virtual DOM](#virtual-dom)
 
 ---
-
-<br/>
 
 ## React
 
@@ -37,7 +36,6 @@
 </details>
 
 ---
-<br/>
 
 ## Sintaxis JSX
 
@@ -85,8 +83,6 @@
 
 ---
 
-<br/>
-
 ## Propiedades/props
 
 <details style="border: 1px outset #444; padding:5px;cursor:pointer">
@@ -103,8 +99,6 @@
 <br/>
 
 ---
-
-<br/>
 
 ## Estado
 
@@ -126,7 +120,6 @@
 <br/>
 
 ---
-<br/>
 
 ## Inmutabilidad
 
@@ -146,4 +139,20 @@
 <br/>
 
 ---
-<br/>
+
+## Virtual DOM
+
+<details style="border:1px outset #444; padding:5px;cursor:pointer;">
+<summary>Visualizar la información</summary>
+</br>
+
+- Es una representación **"virtual"** de la UI (User Interface), que se mantiene en memoria y en sincronía con el **DOM "real"**. Este proceso se conoce como **reconciliación**. El Virtual DOM es posible mediante el uso de la biblioteca **React DOM**.
+
+- El **Virtual DOM** permanece activo para interceptar los cambios que se realizan en la interfaz, interpreta y calcula la manera mas eficiente de realizar dichos cambios y los aplica solamente sobre aquellos nodos en donde cambia la información y, finalmente, envía los cambios optimizados al DOM para la fase de renderizado.
+
+- La ventaja del **Virtual DOM** es que éste nos permite ahorrar recursos de procesamiento y brindar una experiencia de usuario más fluida en nuestras aplicaciones.
+
+</details>
+</br>
+
+---
